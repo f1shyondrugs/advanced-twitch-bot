@@ -4,11 +4,7 @@ just change your bots oauth token in the Credentials.txt and in the main.py chan
 
 i think i've missed some emotes in the allemotes.txt so add or remove some for your liking. 
 
-## USER COMMANDS
-every chatter can use these commands
-
-
-Sure, here's a list of existing commands along with short descriptions and examples:
+## BOT COMMANDS
 
 ### !gamble
 Gamble points for a chance to win or lose.
