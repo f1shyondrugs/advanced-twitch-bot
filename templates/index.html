@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+        body {
+            font-family: 'Honk', system-ui;
+            color: white;
+            
+        }
+        .text {
+            margin-left: 50px;            
+            transform: translateY(-50px);
+
+        }
+        .balls {            
+            transform: translateY(-150px);
+
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text" style="font-size: 100px;">Latest Message From {{ user }}: {{ text }}</h1>
+    <h1 class="balls" style="font-size: 70px;">Change with !settext</h1>
+    <script>
+        setTimeout(function() {                  
+            location.reload();         
+        }, 1500)
+        
+    </script>
+    
+</body>
+</html>
