@@ -3,6 +3,12 @@
 This is a twitch bot by Das_F1sHy312 (me). i am developing this every stream, so tune in! (https://twitch.tv/f1shy312)
 
 ## SETUP
+for the `!settext` command to work you need to start the webserver.py
+
+add a browser in your OBS with the URL "127.0.0.1:5000" (if you're hosting it on your pc)
+
+
+
 just change your bots oauth token in the Credentials.txt and in the main.py change your webhook urls, twitch links and admins.
 
 i think i've missed some emotes in the allemotes.txt so add or remove some for your liking. 
